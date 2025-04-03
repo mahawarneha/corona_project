@@ -1,0 +1,137 @@
+@charset "utf-8";
+/* CSS Document */
+
+ body{
+	 background:#D4F5E0;
+	 width:100px;
+	 margin:0px;
+	 padding:0px;
+	 text-decoration:none;
+	 box-sizing:border-box;
+
+	  }
+
+.wrapper{
+	display:flex;
+	position:relative;
+}
+
+.wrapper  .Pandamic{
+	position:fixed;
+	width:200px;
+	height:100%;
+	background:#08A440;
+	padding:0px;	
+	}
+	
+
+.wrapper  .Pandamic h2{
+	color:#FFF;
+	font-family:"Times New Roman", Times, serif;
+	font-size:20px;
+	text-transform:uppercase;
+	text-align:center;
+	margin-bottom: 30px;
+}
+	
+
+.wrapper  .Pandamic ul li{
+	padding:15px;
+	boarder-bottom: 1px solid rgba(0,0,0,0.05);
+	boarder-top: 1px solid rgba(225,225,225,0.05);
+}
+
+.wrapper  .Pandamic ul li a{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#000;
+	text-align:center;
+	text-decoration:none;
+	display:inline-block;
+	}
+
+.wrapper  .Pandamic ul li a far{
+	width:20px;
+	height:25px;
+	color:#FFF;
+	}
+	
+.wrapper  .Pandamic ul li:hover{
+	background:#ffff;
+}
+
+.wrapper  .Pandamic ul li:hover a{
+	color:#1B4803;
+	}
+.wrapper  .Pandamic ul li a far:hover{
+	background:#ffff;}
+<!---
+.wrapper  .Pandamic .social-media{
+	position:absolute;
+	bottom: 0;
+	left:50%;
+	transform:translate(-50%);
+	display:flex;
+	}
+.wrapper  .Pandamic .social-media a{
+	display:block;
+	width:40px;
+	background:#FF0;
+	height:40px;
+	line-height:40px;
+	text-align:center;
+	margin: 0px 50px;
+	color:#0F0;
+	border-top-right-radius:5px;
+	border-top-left-radius:5px;
+}--->
+
+.wrapper .main_contain{
+	width:100%;
+	margin-left:200px;
+	
+	
+	}
+.wrapper  .main_contain .header{
+	padding:25px;
+	background:#245533;
+	color:#fff;
+	text-align:left;
+	width:100%;
+	margin-left:200px;
+	text-decoration:none;
+	border-bottom:3px solid #ccc;
+	text-transform:uppercase;
+}
+
+.wrapper  .main_contain .info{
+	border:100%;
+	margin-left:200px;
+	}
+.wrapper  .main_contain .info div{
+	text-align:justify;
+	padding:25px;
+	color:#333;
+	text-decoration:none;
+	margin-left:200px;
+	
+	
+	display:inline;
+	}
+
+.top_containt{
+    width:100%;
+	color:#36C;
+	}
+
+	
+.wrapper .top_containt h3{
+	color:#9C6;
+	box-sizing:border-box;
+	border:#C03 solid ;
+	border-color:#C63;
+	}
+.wrapper .top_containt img{
+	alignment-adjust:middle;
+	width:30px;
+	height:40px;
+	}
